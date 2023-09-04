@@ -8,9 +8,10 @@ export const Wrapper = styled.div`
   display: flex;
   max-width: 1280px;
   justify-content: space-between;
-  padding: 0 50px;
+  padding: 0 60px;
   gap: 40px;
   position: relative;
+  margin-bottom: 40px;
 `;
 
 export const ImageDetail = styled.img`

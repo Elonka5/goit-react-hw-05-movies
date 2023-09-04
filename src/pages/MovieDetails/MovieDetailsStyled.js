@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const BtnBack = styled.button`
   position: absolute;
-  top: 27%;
-  left: 4%;
+  top: 17%;
+  left: 5%;
   font-family: 'Phudu', cursive;
   font-size: 18px;
   text-transform: uppercase;

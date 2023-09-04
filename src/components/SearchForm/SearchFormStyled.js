@@ -7,7 +7,7 @@ export const FormSearch = styled.form`
   margin-right: auto;
   justify-content: center;
   gap: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 
   & input {
     background-color: #eee;

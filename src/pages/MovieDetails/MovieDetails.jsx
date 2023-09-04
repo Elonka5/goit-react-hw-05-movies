@@ -5,8 +5,6 @@ import { Movie } from 'components/Movie/Movie';
 import { Link, useLocation, useParams } from 'react-router-dom';
 import { getDetailsMovie } from 'services/MovieApi';
 import { BtnBack } from './MovieDetailsStyled';
-// import Cast from 'components/Cast/Cast';
-// import Reviews from 'components/Reviews/Reviews';
 
 const MovieDetails = () => {
   const [movie, setMovie] = useState(null);
@@ -39,10 +37,7 @@ const MovieDetails = () => {
         {' '}
         <BtnBack type="button">Go back</BtnBack>
       </Link>
-
       {movie && <Movie movie={movie} />}
-      {/* <Cast />
-      <Reviews /> */}
     </div>
   );
 };

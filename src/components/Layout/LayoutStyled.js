@@ -13,7 +13,6 @@ export const Header = styled.header`
   background-color: #592e3e;
   display: flex;
   align-items: center;
-  /* justify-content: center; */
   gap: 12px;
   padding: 8px 40px;
   margin-bottom: 16px;

@@ -10,6 +10,7 @@ import {
   SectionDetails,
   ListInfo,
 } from './MovieStyled';
+import { Suspense } from 'react';
 
 export const Movie = ({ movie }) => {
   return (
@@ -48,7 +49,9 @@ export const Movie = ({ movie }) => {
           </ListInfo>
         </AddInfwrap>
       </Wrapper>
-      <Outlet />
+      <Suspense fallback={<p>Loading...</p>}>
+        <Outlet />
+      </Suspense>
     </SectionDetails>
   );
 };

@@ -25,11 +25,6 @@ export const CastWrapper = styled.ul`
   & p:not(:last-child) {
     margin-bottom: 8px;
   }
-
-  /* & img {
-    max-width: 200px;
-    height: auto;
-  } */
 `;
 
 export const CharacterWrap = styled.div`
