@@ -45,10 +45,7 @@ const Movies = () => {
 
   return (
     <Section>
-      <SearchForm
-        onSubmit={handleSubmit}
-        nameButton={'Find Movie'}
-      ></SearchForm>
+      <SearchForm onSubmit={handleSubmit} nameButton={'Find Movie'} />
 
       {showErrorImg && <ErrorImg text="Oops... Something went wrong..." />}
       {isLoading && <Loader />}

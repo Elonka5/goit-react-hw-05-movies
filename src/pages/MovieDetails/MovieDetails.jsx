@@ -33,9 +33,9 @@ const MovieDetails = () => {
       {showErrorImg && <ErrorImg text="Oops... Something went wrong..." />}
       {isLoading && <Loader />}
 
-      <Link to={backLink.current ?? '/'}>
+      <Link to={backLink.current}>
         {' '}
-        <BtnBack type="button">Go back</BtnBack>
+        <p>Go back</p>
       </Link>
       {movie && <Movie movie={movie} />}
     </div>
