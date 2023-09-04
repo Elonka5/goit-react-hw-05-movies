@@ -4,7 +4,7 @@ import { ErrorImg } from 'components/Error/ErrorImg';
 import { Movie } from 'components/Movie/Movie';
 import { Link, useLocation, useParams } from 'react-router-dom';
 import { getDetailsMovie } from 'services/MovieApi';
-import { BtnBack } from './MovieDetailsStyled';
+import { TextBack } from './MovieDetailsStyled';
 
 const MovieDetails = () => {
   const [movie, setMovie] = useState(null);
@@ -35,7 +35,7 @@ const MovieDetails = () => {
 
       <Link to={backLink.current}>
         {' '}
-        <p>Go back</p>
+        <TextBack>Go back</TextBack>
       </Link>
       {movie && <Movie movie={movie} />}
     </div>

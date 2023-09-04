@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const BtnBack = styled.button`
+export const TextBack = styled.p`
   position: absolute;
   top: 17%;
   left: 5%;
